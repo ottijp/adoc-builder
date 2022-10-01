@@ -1,0 +1,25 @@
+{
+  "name": "adoc-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "node preview",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottijp/adoc-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottijp/adoc-builder/issues"
+  },
+  "homepage": "https://github.com/ottijp/adoc-builder#readme",
+  "devDependencies": {
+    "asciidoctor": "^2.2.6",
+    "browser-sync": "^2.27.10"
+  }
+}
