@@ -15,7 +15,7 @@ const convert = (file) => {
 
 bs.watch('.', {
   ignoreInitial: true,
-  ignored: ['*.html', '.*', '.*/**/*'],
+  ignored: ['*.html', '.*', '.*/**/*', 'node_modules/**/*'],
 }, (event, file) => {
   if (event === 'add' || event === 'change') {
     console.log(`${event} ${file}`)
